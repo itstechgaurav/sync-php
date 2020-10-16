@@ -23,7 +23,8 @@
     "url": "https://github.com/myselfgroot/sync-php/issues"
   },
   "homepage": "https://github.com/myselfgroot/sync-php#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "node-watch": "^0.7.0",
     "ws": "^7.3.1"
   }
