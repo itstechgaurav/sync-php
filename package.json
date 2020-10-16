@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "a webpack plugin to live reload php server",
   "main": "index.js",
+  "keywords": [
+    "webpack",
+    "webpack-plugin",
+    "webpack plugin",
+    "live php reload",
+    "webpack php live reload"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
