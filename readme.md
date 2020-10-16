@@ -1,27 +1,24 @@
-<center>
-    <img src='./logo.svg' width='300'>
+<img src='./logo.svg' width='300'>
     <br>
     <h1>Sync PHP</h1>
     this is a webpack plugin that you can use to reload php files on changes.
-</center>
 
 ##Installation
 
-####step 1
+#### step 1
 add plugin to the `webapck dev config` array
+
 <br>
 
 ```javascript  
+const syncPhp = require('sync-php');
 
-    const syncPhp = require('sync-php');
-
-    plugins: [
-        new syncPhp({
-            port: 1337, // required
-            watch: path.resolve('build/') // required
-        })
-    ]
-
+plugins: [
+    new syncPhp({
+        port: 1337, // required
+        watch: path.resolve('build/') // required
+    })
+]
 ```
 
 there are two options
@@ -34,7 +31,7 @@ there are two options
 
 <br/>
 
-####step 2
+#### step 2
     add `loader` to your `main.js` file at the end 
     <br/>
        
@@ -47,7 +44,7 @@ there are two options
 
 <br/>
 
-####step 3
+#### step 3
     `run wepack server in watch mode ` or `run dev server`
     `open your php file into browser`
 
