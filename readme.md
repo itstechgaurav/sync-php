@@ -1,7 +1,7 @@
 <img src='./logo.svg' width='300'>
-    <br>
-    <h1>Sync PHP</h1>
-    this is a webpack plugin that you can use to reload php files on changes.
+<br>
+<h1>Sync PHP</h1>
+this is a webpack plugin that you can use to reload php files on changes.
 
 ##Installation
 
@@ -45,13 +45,13 @@ there are two options
 <br/>
 
 #### step 3
-    `run wepack server in watch mode ` or `run dev server`
-    `open your php file into browser`
+`run wepack server in watch mode ` or `run dev server`
+`open your php file into browser`
 
-    <br/>
-    for php server use following command
+<br/>
+for php server use following command
 
-    `php -S localhost:9000`
+`php -S localhost:9000`
 <br/>
 
 
