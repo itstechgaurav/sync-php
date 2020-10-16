@@ -1,6 +1,6 @@
 {
   "name": "sync-php",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a webpack plugin to live reload php server",
   "main": "index.js",
   "keywords": [
